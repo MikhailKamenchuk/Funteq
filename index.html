@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .form{
+            height: 3%;
+            display: flex;
+        }
+        .form__search-field{
+            width: 60%;
+            height: 100%;
+            font-size: 2rem;
+            margin-right: 1%;
+        }
+        .form__submit-btn{
+            width:20%;
+            height: 100%;
+            font-size: 2rem;
+        }
+        .frame-wrapper{
+            margin-top:2%;
+            width: 600px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <form class="form">
+        <input type="text" class="form__search-field"/>
+        <button type="submit" class="form__submit-btn">Submit</button>
+    </form>
+    <div class="frame-wrapper"></div>
+</body>
+<script src="index.js"></script>
+</html>
